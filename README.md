@@ -69,7 +69,7 @@ si c'est le cas tous est bien configuré : http://localhost:8084/ -->
      ```bash
    sudo /usr/bin/jenkins
 
-
+<!--
 ## Install Java 17 (If Required)
 
 **Update Packages and Install OpenJDK 17**
@@ -85,8 +85,9 @@ si c'est le cas tous est bien configuré : http://localhost:8084/ -->
 
 **Reload and Restart Jenkins Service**
     ```bash 
-    sudo systemctl daemon-reload  # Only if jenkins.service was modified
-sudo systemctl restart jenkins
+#    sudo systemctl daemon-reload  # Only if jenkins.service was modified
+#sudo systemctl restart jenkins
+ -->
 
 
 **Verify Jenkins Port**
