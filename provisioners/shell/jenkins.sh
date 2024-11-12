@@ -5,7 +5,8 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Installation de Java (Jenkins nécessite Java)
-sudo apt-get install -y openjdk-11-jdk
+#sudo apt-get install -y openjdk-11-jdk  
+sudo apt-get install -y openjdk-17-jdk  
 
 # Ajout de la clé GPG pour le dépôt Jenkins
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
